@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 header {
-    background-image: linear-gradient(to top, #34a8eb 30% ,#3480eb 70%)  ;
+    background-image: linear-gradient(to top, #1e5b75 30% ,#237ba1 70%)  ;
     text-align: center;
     width: 0 auto;
     padding: 25px 25px ; 
@@ -29,7 +29,7 @@ header li :before {
 }
 
 
-nav  :visited {
+nav   a {
     color: white;
     text-decoration:none ;
 }
@@ -77,10 +77,11 @@ code {
 }
 
 a  {
-    color:#0084FF;
+    font-weight: bold;
+    color:#237ba1;
 }
 a :visited {
-    color: #0084FF;
+    color: #237ba1;
 }
 
 iframe {
